@@ -1,0 +1,35 @@
+{
+  "name": "eslint-lite-react-ts",
+  "version": "0.0.1",
+  "description": "react + typescript esling config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "frontend",
+    "bundlder"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/User0k/configs#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
