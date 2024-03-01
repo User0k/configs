@@ -1,15 +1,23 @@
 {
-  "name": "eslint-lite-react-ts",
+  "name": "@user0k/eslint-config-react-ts",
   "version": "0.0.1",
-  "description": "react + typescript esling config",
+  "description": "React + typescript lite eslint config",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/User0k/configs.git"
+  },
   "keywords": [
-    "eslint",
+    "react",
     "typescript",
-    "frontend",
-    "bundlder"
+    "eslint",
+    "config"
   ],
-  "license": "MIT",
+  "author": "user0k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/User0k/configs/issues"
+  },
   "homepage": "https://github.com/User0k/configs#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.2",
@@ -21,13 +29,13 @@
     "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.0.2",
-    "@typescript-eslint/parser": "^7.0.2",
-    "eslint": "^8.56.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.2.5"
+    "@typescript-eslint/eslint-plugin": ">= 7.0.0",
+    "@typescript-eslint/parser": ">= 7.0.0",
+    "eslint": ">= 8.56.0",
+    "eslint-plugin-prettier": ">= 5.1.0",
+    "eslint-plugin-react": ">= 7.33.0",
+    "eslint-plugin-react-hooks": " >= 4.6.0",
+    "prettier": ">= 3.2.5"
   },
   "publishConfig": {
     "access": "public"
