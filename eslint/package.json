@@ -1,6 +1,6 @@
 {
   "name": "@user0k/eslint-config-react-ts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React + typescript lite eslint config",
   "main": "index.js",
   "repository": {
@@ -10,8 +10,7 @@
   "keywords": [
     "react",
     "typescript",
-    "eslint",
-    "config"
+    "eslint-config"
   ],
   "author": "user0k",
   "license": "ISC",
